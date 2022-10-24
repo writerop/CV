@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h3>Address</h3>
+    <h3>3116354</h3>
+    <h3>@gmail.com</h3>
+
+    <form action="mailto:kumar933utkarsh@gmail.com" method="POST">
+        <label name="yourName">YOUR NAME: </label>
+        <input type="text"><br><br>
+        <label name="yourPassword">PASSWORD: </label>
+        <input type="password"><br><br>
+        <label name="yourMail">EMAIL: </label>
+        <input type="email" pattern=".+@gmail\.com" required><br><br>
+        <label>DO YOU AGREE TO SHARING YOUR DATA? </label>
+        <input type="checkbox" id="Yes">
+        <label for="Yes">Yes</label>
+        <input type="checkbox" id="No">
+        <label for="No">No</label><br><br>
+        <label>MESSAGE: </label>
+        <textarea name="yourMessage" rows="10" cols="20"></textarea><br><br>
+        <label>ENTER YOUR DOB: </label>
+        <input type="date"><br><br>
+        <label>SUBMIT THE FILE: </label>
+        <input type="file" accept=".pdf"><br><br>
+        <!--<input type="submit">-->
+        <button>SUBMIT</button>
+    </form>
+</body>
+</html>
